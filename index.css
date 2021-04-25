@@ -13,9 +13,15 @@
     align-items: center;
     height: 100vh;
     width: 100%;
+    background-size: cover;
+}
+.url1 {
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0,0,0, 0.1)), 
     url('pexels-snapwire-670061.jpg');
-    background-size: cover;
+}
+.url2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0,0,0, 0.2)), 
+    url('surf.jpeg');
 }
 body {
     font-family: 'Space Mono', sans-serif;
@@ -23,6 +29,7 @@ body {
 }
 h1 {
     font-size: 5rem;
+    cursor: pointer;
 }
 p {
     width: 50vw;
